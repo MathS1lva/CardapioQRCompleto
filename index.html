@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siri Beer</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="./assets/images/siri-beer-logo.png">
+        <div>
+            <h1>Cardápio Siri Beer</h1><br>
+            <p>casa verde • zn - são paulo</p>
+        </div>
+    </header>
+    <!-- Fim Header -->
+
+    <!-- Banners -->
+    <nav class="sessaoBanners">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./assets/images/iq7KrG.png"></div>
+                <div class="swiper-slide"><img src="./assets/images/26da780891a603e8f9793810350ac13a.jpg"></div>
+                <div class="swiper-slide"><img src="./assets/images/111a03133d14214539c96e0f657dff1a.png"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </nav>
+    <!-- Fim Banners -->
+
+
+    <!-- Menus -->
+    <nav class="sessaoSelecaoMenus">
+        <div class="menus">Menu Principal</div>
+        <div class="menus">Bebidas Alcoolicas</div>
+        <div class="menus">Bebidas não Alcoolicas</div>
+        <div class="menus">Sobremesas</div>
+    </nav>
+    <!-- Fim Menus -->
+
+    <!-- Menu principal -->
+    <section class="menuPrincipal">
+        <nav class="selecionarSubsessoesContainer">
+            <div class="subsessao">porções</div>
+            <div class="subsessao">pratos a la carte</div>
+            <div class="subsessao">feijoada</div>
+            <div class="subsessao">destaques</div>
+            <div class="subsessao">lanches</div>
+            <div class="subsessao">novidades</div>
+        </nav>
+        <!-- Fim Seleção de subsessoes menu principal -->
+
+        <!-- Subsessoes Menu principal -->
+
+        <!-- Porções -->
+        <div class="porcoes">
+
+            <!-- Observações porções-->
+            <div class="observacoes">
+                    <p>meia porção será cobrado 70% do valor da porção inteira</p>
+            </div>
+            <!-- Fim Observação porções-->
+                
+            <!-- Items porções -->
+            <div class="porcoesItems">
+                <div class="item">
+                    <div class="imagemContainer">
+                        <img src="./assets/images/Batata-Frita.jpg" alt="">
+                    </div>
+                    <div class="textoContainer">
+                        <h2 class="nomePorcao">Lagoa azul</h2>
+                        <p class="descricao">cosvn cvjsdv dcu aaibygygg9ug8ausdu aa a aisdcs </p>
+                        <p class="preco">R$50,20</p>
+                    </div>
+                </div>   
+            </div>
+            <!-- Fim items porções -->
+
+
+            <!-- Galeria porções -->
+            <div class="galeriaPorcoes">
+                <div class="galeria">
+                    <div class="fotoContainer"><img src="./assets/images/Batata-Frita.jpg"></div>
+                    <div class="fotoContainer"><img src="./assets/images/Batata-Frita.jpg"></div>
+                    <div class="fotoContainer"><img src="./assets/images/Batata-Frita.jpg"></div>
+                    <div class="fotoContainer"><img src="./assets/images/Batata-Frita.jpg"></div>
+                </div>
+            </div>
+            <!-- Fim Galeria porções -->
+
+        </div>
+        <!-- Fim porções -->
+
+        <!-- Pratos a la carte -->
+        <div class="pratos a la carte">
+        </div>
+        <!-- Fim Pratos a la carte -->
+
+        <!-- Fim Subsessoes Menu principal -->
+
+    </section>
+    <!-- Fim Menu principal -->
+
+    <!-- footer -->
+    <footer>
+        <p>Venda de bebidas alcoolicas proibida para menores de 18 anos.</p>
+        <div>
+            <p>desenvolvido<br>por</p>
+            <img src="" alt="">
+        </div>
+    </footer>
+    <!-- Fim footer -->
+    
+    <!-- Scripts -->
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+</html>
