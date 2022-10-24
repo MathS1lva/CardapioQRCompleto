@@ -69,9 +69,6 @@ botaoMenuPrincipal.addEventListener("click", function() {
     bebidasAlcoolicas.style.display = 'none';
     bebidasNaoAlcoolicas.style.display = 'none';
     sobremesas.style.display = 'none';
-
-    botaoPorcoes.style.borderBottom = '3px solid rgb(255, 123, 22)';
-    porcoes.style.display = 'block';
 });
 
 botaoBebidasAlcoolicas.addEventListener("click", function() {
@@ -218,7 +215,7 @@ botaoLanches.addEventListener("click", function() {
     novidades.style.display = 'none';
 });
 
-botaoPratos.addEventListener("click", function() {
+botaoNovidades.addEventListener("click", function() {
     botaoPorcoes.style.borderBottom = '';
     botaoPratos.style.borderBottom = '';
     botaoFeijoada.style.borderBottom = '';
