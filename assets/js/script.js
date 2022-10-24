@@ -69,6 +69,9 @@ botaoMenuPrincipal.addEventListener("click", function() {
     bebidasAlcoolicas.style.display = 'none';
     bebidasNaoAlcoolicas.style.display = 'none';
     sobremesas.style.display = 'none';
+
+    botaoPorcoes.style.borderBottom = '3px solid rgb(255, 123, 22)';
+    porcoes.style.display = 'block';
 });
 
 botaoBebidasAlcoolicas.addEventListener("click", function() {
@@ -118,4 +121,116 @@ botaoSobremesas.addEventListener("click", function() {
     bebidasNaoAlcoolicas.style.display = 'none';
     sobremesas.style.display = 'block';
 });
-// Fim Botos Menus
+// Fim Botoes Menus
+
+// Botoes submenus
+var botaoPorcoes = document.getElementById("botaoPorcoes");
+var botaoPratos = document.getElementById("botaoPratos");
+var botaoFeijoada = document.getElementById("botaoFeijoada");
+var botaoDestaques = document.getElementById("botaoDestaques");
+var botaoLanches = document.getElementById("botaoLanches");
+var botaoNovidades = document.getElementById("botaoNovidades");
+
+var porcoes = document.getElementById("porcoes");
+var pratos = document.getElementById("pratos");
+var feijoada = document.getElementById("feijoada");
+var destaques = document.getElementById("destaques");
+var lanches = document.getElementById("lanches");
+var novidades = document.getElementById("novidades");
+
+botaoPorcoes.addEventListener("click", function() {
+    botaoPorcoes.style.borderBottom = '3px solid rgb(255, 123, 22)';
+    botaoPratos.style.borderBottom = '';
+    botaoFeijoada.style.borderBottom = '';
+    botaoDestaques.style.borderBottom = '';
+    botaoLanches.style.borderBottom = '';
+    botaoNovidades.style.borderBottom = '';
+
+    porcoes.style.display = 'block';
+    pratos.style.display = 'none';
+    feijoada.style.display = 'none';
+    destaques.style.display = 'none';
+    lanches.style.display = 'none';
+    novidades.style.display = 'none';
+});
+
+botaoPratos.addEventListener("click", function() {
+    botaoPorcoes.style.borderBottom = '';
+    botaoPratos.style.borderBottom = '3px solid rgb(255, 123, 22)';
+    botaoFeijoada.style.borderBottom = '';
+    botaoDestaques.style.borderBottom = '';
+    botaoLanches.style.borderBottom = '';
+    botaoNovidades.style.borderBottom = '';
+
+    porcoes.style.display = 'none';
+    pratos.style.display = 'block';
+    feijoada.style.display = 'none';
+    destaques.style.display = 'none';
+    lanches.style.display = 'none';
+    novidades.style.display = 'none';
+});
+
+botaoFeijoada.addEventListener("click", function() {
+    botaoPorcoes.style.borderBottom = '';
+    botaoPratos.style.borderBottom = '';
+    botaoFeijoada.style.borderBottom = '3px solid rgb(255, 123, 22)';
+    botaoDestaques.style.borderBottom = '';
+    botaoLanches.style.borderBottom = '';
+    botaoNovidades.style.borderBottom = '';
+
+    porcoes.style.display = 'none';
+    pratos.style.display = 'none';
+    feijoada.style.display = 'block';
+    destaques.style.display = 'none';
+    lanches.style.display = 'none';
+    novidades.style.display = 'none';
+});
+
+botaoDestaques.addEventListener("click", function() {
+    botaoPorcoes.style.borderBottom = '';
+    botaoPratos.style.borderBottom = '';
+    botaoFeijoada.style.borderBottom = '';
+    botaoDestaques.style.borderBottom = '3px solid rgb(255, 123, 22)';
+    botaoLanches.style.borderBottom = '';
+    botaoNovidades.style.borderBottom = '';
+
+    porcoes.style.display = 'none';
+    pratos.style.display = 'none';
+    feijoada.style.display = 'none';
+    destaques.style.display = 'block';
+    lanches.style.display = 'none';
+    novidades.style.display = 'none';
+});
+
+botaoLanches.addEventListener("click", function() {
+    botaoPorcoes.style.borderBottom = '';
+    botaoPratos.style.borderBottom = '';
+    botaoFeijoada.style.borderBottom = '';
+    botaoDestaques.style.borderBottom = '';
+    botaoLanches.style.borderBottom = '3px solid rgb(255, 123, 22)';
+    botaoNovidades.style.borderBottom = '';
+
+    porcoes.style.display = 'none';
+    pratos.style.display = 'none';
+    feijoada.style.display = 'none';
+    destaques.style.display = 'none';
+    lanches.style.display = 'block';
+    novidades.style.display = 'none';
+});
+
+botaoPratos.addEventListener("click", function() {
+    botaoPorcoes.style.borderBottom = '';
+    botaoPratos.style.borderBottom = '';
+    botaoFeijoada.style.borderBottom = '';
+    botaoDestaques.style.borderBottom = '';
+    botaoLanches.style.borderBottom = '';
+    botaoNovidades.style.borderBottom = '3px solid rgb(255, 123, 22)';
+
+    porcoes.style.display = 'none';
+    pratos.style.display = 'none';
+    feijoada.style.display = 'none';
+    destaques.style.display = 'none';
+    lanches.style.display = 'none';
+    novidades.style.display = 'block';
+});
+// Fim Botoes submenus

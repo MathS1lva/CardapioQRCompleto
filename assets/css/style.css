@@ -247,10 +247,22 @@
   #menuPrincipal {
     display: none;
   }
-  #botaoPorcoes {
-    background-color: var(--nativeColor);
-  }
   #porcoes {
+    display: none;
+  }
+  #pratos {
+    display: none;
+  }
+  #feijoada {
+    display: none;
+  }
+  #destaques {
+    display: none;
+  }
+  #lanches {
+    display: none;
+  }
+  #novidades {
     display: none;
   }
   #bebidasAlcoolicas {
