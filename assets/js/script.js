@@ -51,7 +51,7 @@ addEventListener("DOMContentLoaded", function() {
     bebidasNaoAlcoolicas.style.display = 'none';
     sobremesas.style.display = 'none';
 
-    botaoPorcoes.style.backgroundColor = '--secondayColor';
+    botaoPorcoes.style.borderBottom = '3px solid rgb(255, 123, 22)';
     porcoes.style.display = 'block';
 });
 
