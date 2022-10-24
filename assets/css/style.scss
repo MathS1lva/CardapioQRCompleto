@@ -66,7 +66,7 @@ header p{
   text-overflow: ellipsis;
   float: left;
 
-  font-size: 12px;
+  font-size: 11px;
   color: var(--mainColor);
   font-family: 'Merienda One';
 }
@@ -148,23 +148,24 @@ header p{
   display: none;
 }
 
-#menu1{
+#botaoMenuPrincipal{
   background-image: url(../images/bandeira-do-panorama-com-porções-de-frango-grelhadas-picante-e-churrasco-ouro-servidas-ketchup-mostarda-em-papel-amassado-num-159326670.jpg);
   background-size: cover;
+  background-color: none;
 }
 
-#menu2{
+#botaoBebidasAlcoolicas{
   background-image: url(../images/drinques-bebida-alcoolica-tequila-cerveja-chopp-gim-martini-alcool-copos-tacas-1663094165597_v2_900x506.jpg);
   background-size: cover;
 }
 
-#menu3{
+#botaoBebidasNaoAlcoolicas{
   background-image: url(../images/sonhar-com-Refrigerante.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#menu4{
+#botaoSobremesas{
   background-image: url(../images/petit-gateau-1920x1080.png);
   background-size: cover;
 }
@@ -176,8 +177,6 @@ header p{
 .selecionarSubsessoesContainer{
   display: flex;
   overflow-x: auto;
-
-  border: var(--border);
 }
 
 .subsessao{
@@ -185,7 +184,7 @@ header p{
   white-space: nowrap;
   padding: 6px 12px;
 
-  border-left: var(--border);
+  border: var(--border);
   background-color: var(--nativeColor);
   font-size: 18px;
   font-family: 'Staatliches';
@@ -213,7 +212,7 @@ header p{
 .observacoes p{
   text-align: left;
 
-  font-size: 12px;
+  font-size: 11px;
   font-family: 'Merienda One';
   color: black;
 }
@@ -260,7 +259,7 @@ header p{
   overflow: hidden;
   text-overflow: ellipsis;
   
-  font-size:12px;
+  font-size:11px;
   font-family: 'Merienda One';
   font-weight: 300;
   line-height: 1.3;
@@ -308,6 +307,40 @@ header p{
   height: 100%;
 }
 // Fim Design Galeria 
+
+// Menu Principal
+#menuPrincipal{
+  display: none;
+}
+
+// Porcoes
+#botaoPorcoes{
+  background-color: var(--nativeColor);
+}
+
+#porcoes{
+  display: none;
+}
+// Fim Porcoes
+// Fim Menu principal
+
+// Bebidas Alcoolicas
+#bebidasAlcoolicas{
+  display: none;
+}
+// Fim Bebidas Alcoolicas
+
+// Bebidas Nao Alcoolicas
+#bebidasNaoAlcoolicas{
+  display: none;
+}
+// Fim Bebidas Nao Alcoolicas
+
+// Sobremesas
+#sobremesas{
+  display: none;
+}
+// Fim Sobremesas
 
 
 // Footer
