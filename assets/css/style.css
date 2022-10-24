@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
 :root {
   --nativeColor: rgb(236, 217, 186);
   --secondaryColor: rgb(197, 181, 155);
@@ -55,7 +55,7 @@
     float: left;
     font-size: 15px;
     color: var(--mainColor);
-    font-family: "Marck Script";
+    font-family: "Merienda One";
   }
   .sessaoBanners {
     width: 100%;
@@ -172,7 +172,7 @@
   .observacoes p {
     text-align: left;
     font-size: 15px;
-    font-family: "Marck Script";
+    font-family: "Merienda One";
     color: black;
   }
   .item {
@@ -209,7 +209,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 15px;
-    font-family: "Marck Script";
+    font-family: "Merienda One";
     font-weight: 300;
     line-height: 1.3;
     color: black;
@@ -219,11 +219,13 @@
     right: 5px;
     bottom: 5px;
     font-size: 15px;
+    font-family: "Staatliches";
     color: black;
     font-weight: bold;
   }
   .nomePorcao {
     font-size: 18px;
+    font-family: "Staatliches";
     color: black;
   }
   .galeriaPorcoes {
