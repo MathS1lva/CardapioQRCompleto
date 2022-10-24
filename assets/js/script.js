@@ -51,8 +51,8 @@ addEventListener("DOMContentLoaded", function() {
     bebidasNaoAlcoolicas.style.display = 'none';
     sobremesas.style.display = 'none';
 
-    botaoPorcoes.style.borderBottom = '3px solid rgb(255, 123, 22)';
-    porcoes.style.display = 'block';
+    botaoDestaques.style.borderBottom = '3px solid rgb(255, 123, 22)';
+    destaques.style.display = 'block';
 });
 
 botaoMenuPrincipal.addEventListener("click", function() {
