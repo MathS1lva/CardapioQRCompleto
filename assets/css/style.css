@@ -273,6 +273,7 @@
   }
   #sobremesas {
     display: none;
+    border-top: var(--border);
   }
   footer {
     padding: 20px 10px 10px;
