@@ -8,10 +8,11 @@ const refreshButtonVisibility = () => {
     else {
         botaoScroll.style.display = "block";
     }
-}
-refreshButtonVisibility();
+}; 
 
-scrollBtn.addEventListener("click", () => {
+refreshButtonVisibility()
+
+botaoScroll.addEventListener("click", () => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 });
