@@ -423,7 +423,7 @@ botaoCombos.addEventListener("click", function() {
     chopp.style.display = '';
     gin.style.display = '';
     drinks.style.display = '';
-    combos.style.display = '';
+    combos.style.display = 'block';
     destaquesAlcoolicos.style.display = '';
     destilados.style.display = '';
 });
