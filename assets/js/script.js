@@ -140,22 +140,22 @@ botaoBebidasAlcoolicas.addEventListener("click", function() {
     bebidasNaoAlcoolicas.style.display = 'none';
     sobremesas.style.display = 'none';
 
-    botaoCaipirinhas.style.borderBottom = '3px solid rgb(255, 123, 22)';
+    botaoCaipirinhas.style.borderBottom = '';
     botaoCervejas.style.borderBottom = '';
     botaoChopp.style.borderBottom = '';
     botaoGin.style.borderBottom = '';
     botaoDrinks.style.borderBottom = '';
     botaoCombos.style.borderBottom = '';
-    botaoDestaquesAlcoolicos.style.borderBottom = '';
+    botaoDestaquesAlcoolicos.style.borderBottom = '3px solid rgb(255, 123, 22)';
     botaoDestilados.style.borderBottom = '';
 
-    caipirinhas.style.display = 'block';
+    caipirinhas.style.display = '';
     cervejas.style.display = '';
     chopp.style.display = '';
     gin.style.display = '';
     drinks.style.display = '';
     combos.style.display = '';
-    destaquesAlcoolicos.style.display = '';
+    destaquesAlcoolicos.style.display = 'block';
     destilados.style.display = '';
 });
 
