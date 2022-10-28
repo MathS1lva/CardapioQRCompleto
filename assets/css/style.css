@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
 :root {
@@ -35,24 +34,14 @@
     padding: 0 10px;
   }
   header h1 {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
     float: left;
     font-size: 18px;
     font-family: "Staatliches";
     color: var(--mainColor);
   }
   header p {
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
     float: left;
-    font-size: 11px;
+    font-size: 12px;
     color: var(--mainColor);
     font-family: "Merienda One";
   }
@@ -100,7 +89,7 @@
     display: flex;
     overflow-x: auto;
     align-items: center;
-    padding: 30px 0 30px 10px;
+    padding: 30px 10px 30px 10px;
     background-color: var(--nativeColor);
     color: white;
   }
@@ -121,21 +110,20 @@
     display: none;
   }
   #botaoMenuPrincipal {
-    background-image: url(../images/bandeira-do-panorama-com-porções-de-frango-grelhadas-picante-e-churrasco-ouro-servidas-ketchup-mostarda-em-papel-amassado-num-159326670.jpg);
+    background-image: url(../images/BannerMenuPrincipal.jpg);
     background-size: cover;
-    background-color: none;
   }
   #botaoBebidasAlcoolicas {
-    background-image: url(../images/drinques-bebida-alcoolica-tequila-cerveja-chopp-gim-martini-alcool-copos-tacas-1663094165597_v2_900x506.jpg);
+    background-image: url(../images/BannerBebidasAlcoolicas.jpg);
     background-size: cover;
   }
   #botaoBebidasNaoAlcoolicas {
-    background-image: url(../images/sonhar-com-Refrigerante.jpg);
+    background-image: url(../images/BannerBebidasNaoAlcoolicas.jpg);
     background-size: cover;
     background-position: center;
   }
   #botaoSobremesas {
-    background-image: url(../images/petit-gateau-1920x1080.png);
+    background-image: url(../images/BannerSobremesas.png);
     background-size: cover;
   }
   .selecionarSubsessoesContainer {
@@ -170,7 +158,7 @@
   }
   .observacoes p {
     text-align: left;
-    font-size: 11px;
+    font-size: 12px;
     font-family: "Merienda One";
     color: black;
   }
@@ -199,7 +187,6 @@
   .imagemContainer img {
     height: 85%;
     width: 85%;
-    border-radius: 5px;
   }
   .descricao {
     display: -webkit-box;
@@ -207,9 +194,8 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 11px;
+    font-size: 12px;
     font-family: "Merienda One";
-    font-weight: 300;
     line-height: 1.3;
     color: black;
   }
@@ -227,90 +213,30 @@
     font-family: "Staatliches";
     color: black;
   }
-  .galeriaPorcoes {
+  .galeria {
     overflow: hidden;
     padding: 30px 0;
     background-color: var(--nativeColor);
   }
-  .galeriaPorcoes .swiperGaleria {
+  .galeria .swiperGaleria {
     width: 100%;
     height: 100%;
   }
-  .galeriaPorcoes .swiper-slide {
+  .galeria .swiper-slide {
     height: 70vw;
     width: 70vw;
   }
-  .galeriaPorcoes .swiper-slide img {
+  .galeria .swiper-slide img {
     width: 100%;
     height: 100%;
   }
-  #menuPrincipal {
+  #menuPrincipal, #porcoes, #pratos, #feijoada, #destaques, #lanches, #novidades {
     display: none;
   }
-  #porcoes {
+  #bebidasAlcoolicas, #caipirinhas, #cervejas, #chopp, #gin, #drinks, #combos, #destaquesAlcoolicos, #destilados {
     display: none;
   }
-  #pratos {
-    display: none;
-  }
-  #feijoada {
-    display: none;
-  }
-  #destaques {
-    display: none;
-  }
-  #lanches {
-    display: none;
-  }
-  #novidades {
-    display: none;
-  }
-  #bebidasAlcoolicas {
-    display: none;
-  }
-  #caipirinhas {
-    display: none;
-  }
-  #cervejas {
-    display: none;
-  }
-  #chopp {
-    display: none;
-  }
-  #gin {
-    display: none;
-  }
-  #drinks {
-    display: none;
-  }
-  #combos {
-    display: none;
-  }
-  #destaquesAlcoolicos {
-    display: none;
-  }
-  #destilados {
-    display: none;
-  }
-  #bebidasNaoAlcoolicas {
-    display: none;
-  }
-  #refrigerantes {
-    display: none;
-  }
-  #energeticos {
-    display: none;
-  }
-  #drinksSemAlcool {
-    display: none;
-  }
-  #sucos {
-    display: none;
-  }
-  #agua {
-    display: none;
-  }
-  #gelo {
+  #bebidasNaoAlcoolicas, #refrigerantes, #energeticos, #drinksSemAlcool, #sucos, #agua, #gelo {
     display: none;
   }
   #sobremesas {
@@ -327,6 +253,7 @@
     border-top: var(--border);
   }
   footer p {
+    font-family: "Merienda One";
     font-size: 10px;
     color: black;
   }
@@ -344,8 +271,7 @@
     text-decoration: none;
   }
   footer a img {
-    width: 20px;
-    height: 20px;
-    margin: 5px;
+    width: 40px;
+    height: 40px;
   }
 }/*# sourceMappingURL=style.css.map */

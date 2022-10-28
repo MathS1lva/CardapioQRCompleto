@@ -20,10 +20,10 @@ botaoScroll.addEventListener("click", () => {
 document.addEventListener("scroll", (e) => {
     refreshButtonVisibility();
 });
-// Fim Botão
+// Fim botão subir para o topo
 
 
-// Variaveis
+// Variáveis
 var botaoMenuPrincipal = document.getElementById("botaoMenuPrincipal");
 var botaoBebidasAlcoolicas = document.getElementById("botaoBebidasAlcoolicas");
 var botaoBebidasNaoAlcoolicas = document.getElementById("botaoBebidasNaoAlcoolicas");
@@ -81,7 +81,7 @@ var drinksSemAlcool = document.getElementById("drinksSemAlcool");
 var sucos = document.getElementById("sucos");
 var agua = document.getElementById("agua");
 var gelo = document.getElementById("gelo");
-// Fim Variaveis
+// Fim variáveis
 
 
 // Seleção menu
@@ -207,7 +207,7 @@ botaoSobremesas.addEventListener("click", function() {
 // Fim seleção menu
 
 
-// Subsessoes Menu principal
+// Subseções menu principal
 botaoPorcoes.addEventListener("click", function() {
     botaoPorcoes.style.borderBottom = '3px solid rgb(255, 123, 22)';
     botaoPratos.style.borderBottom = '';
@@ -303,10 +303,10 @@ botaoNovidades.addEventListener("click", function() {
     lanches.style.display = '';
     novidades.style.display = 'block';
 });
-// Fim subsessoes menu principal
+// Fim subseções menu principal
 
 
-// Subsessoes bebidas alcoolicas
+// Subseções bebidas alcoólicas
 botaoCaipirinhas.addEventListener("click", function() {
     botaoCaipirinhas.style.borderBottom = '3px solid rgb(255, 123, 22)';
     botaoCervejas.style.borderBottom = '';
@@ -467,9 +467,9 @@ botaoDestilados.addEventListener("click", function() {
     destaquesAlcoolicos.style.display = '';
     destilados.style.display = 'block';
 });
-// Fim subsessoes bebidas alcoolicas
+// Fim subseções bebidas alcoólicas
 
-// Subsessoes bebidas nao alcoolicas
+// Subseções bebidas nao alcoólicas
 botaoRefrigerantes.addEventListener("click", function() {
     botaoRefrigerantes.style.borderBottom = '3px solid rgb(255, 123, 22)';
     botaoEnergeticos.style.borderBottom = '';
@@ -565,4 +565,4 @@ botaoGelo.addEventListener("click", function() {
     agua.style.display = '';
     gelo.style.display = 'block';
 });
-// Fim subsessoes bebidas nao alcoolicas
+// Fim subseções bebidas nao alcoólicas
