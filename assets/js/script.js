@@ -106,9 +106,9 @@ botaoMenuPrincipal.addEventListener("click", function() {
     botaoSobremesas.style.backgroundImage = '';
 
     menuPrincipal.style.display = 'block';
-    bebidasAlcoolicas.style.display = 'none';
-    bebidasNaoAlcoolicas.style.display = 'none';
-    sobremesas.style.display = 'none';
+    bebidasAlcoolicas.style.display = '';
+    bebidasNaoAlcoolicas.style.display = '';
+    sobremesas.style.display = '';
 
     botaoPorcoes.style.borderBottom = '';
     botaoPratos.style.borderBottom = '';
@@ -135,10 +135,10 @@ botaoBebidasAlcoolicas.addEventListener("click", function() {
     botaoSobremesas.style.backgroundColor = '';
     botaoSobremesas.style.backgroundImage = '';
 
-    menuPrincipal.style.display = 'none';
+    menuPrincipal.style.display = '';
     bebidasAlcoolicas.style.display = 'block';
-    bebidasNaoAlcoolicas.style.display = 'none';
-    sobremesas.style.display = 'none';
+    bebidasNaoAlcoolicas.style.display = '';
+    sobremesas.style.display = '';
 
     botaoCaipirinhas.style.borderBottom = '';
     botaoCervejas.style.borderBottom = '';
@@ -169,10 +169,10 @@ botaoBebidasNaoAlcoolicas.addEventListener("click", function() {
     botaoSobremesas.style.backgroundColor = '';
     botaoSobremesas.style.backgroundImage = '';
 
-    menuPrincipal.style.display = 'none';
-    bebidasAlcoolicas.style.display = 'none';
+    menuPrincipal.style.display = '';
+    bebidasAlcoolicas.style.display = '';
     bebidasNaoAlcoolicas.style.display = 'block';
-    sobremesas.style.display = 'none';
+    sobremesas.style.display = '';
     
     botaoRefrigerantes.style.borderBottom = '3px solid rgb(255, 123, 22)';
     botaoEnergeticos.style.borderBottom = '';
@@ -199,9 +199,9 @@ botaoSobremesas.addEventListener("click", function() {
     botaoMenuPrincipal.style.backgroundColor = '';
     botaoMenuPrincipal.style.backgroundImage = '';
 
-    menuPrincipal.style.display = 'none';
-    bebidasAlcoolicas.style.display = 'none';
-    bebidasNaoAlcoolicas.style.display = 'none';
+    menuPrincipal.style.display = '';
+    bebidasAlcoolicas.style.display = '';
+    bebidasNaoAlcoolicas.style.display = '';
     sobremesas.style.display = 'block';
 });
 // Fim seleção menu
@@ -232,12 +232,12 @@ botaoPratos.addEventListener("click", function() {
     botaoLanches.style.borderBottom = '';
     botaoNovidades.style.borderBottom = '';
 
-    porcoes.style.display = 'none';
+    porcoes.style.display = '';
     pratos.style.display = 'block';
-    feijoada.style.display = 'none';
-    destaques.style.display = 'none';
-    lanches.style.display = 'none';
-    novidades.style.display = 'none';
+    feijoada.style.display = '';
+    destaques.style.display = '';
+    lanches.style.display = '';
+    novidades.style.display = '';
 });
 
 botaoFeijoada.addEventListener("click", function() {
@@ -386,7 +386,6 @@ botaoGin.addEventListener("click", function() {
     destaquesAlcoolicos.style.display = '';
     destilados.style.display = '';
 });
-
 
 botaoDrinks.addEventListener("click", function() {
     botaoCaipirinhas.style.borderBottom = '';
